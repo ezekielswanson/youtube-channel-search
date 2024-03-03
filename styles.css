@@ -56,9 +56,34 @@ a:visited {
 
 
 body {
+    font-family: 'Inter', Arial;
     background: #F7F9FB;
+}
+
+main {
+    padding: 79px 222px 88px;
 }
 
 
 
 /**** END Global Styles ****/   
+
+
+
+
+
+/**** Header Styles ****/  
+
+header .title-container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+
+/**** END Header Styles ****/  
