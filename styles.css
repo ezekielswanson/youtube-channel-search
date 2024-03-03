@@ -1,0 +1,64 @@
+
+/**** Global Styles ****/   
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+* {
+margin: 0;
+}
+
+
+
+h1, h2, h3, h4, h5, p {
+    margin: 0px;
+}
+
+/* Removing default styles */
+
+input[type="text"],
+button {
+  background: none;       /* Removes the default background */
+  border: none;           /* Removes the default border */
+  margin: 0;              /* Removes the default margin */
+  padding: 0;             /* Removes the default padding */
+  outline: none;          /* Removes the focus outline */
+  box-shadow: none;       /* Removes the box-shadow if any */
+  font-family: inherit;   /* Inherits the font from the parent element */
+  font-size: inherit;     /* Inherits the font size from the parent element */
+  color: inherit;         /* Inherits the font color from the parent element */
+  line-height: inherit;   /* Inherits the line height from the parent element */
+  appearance: none;       /* Removes default styling for elements like buttons */
+  -webkit-appearance: none; /* Same as above for WebKit browsers like Chrome and Safari */
+  -moz-appearance: none;    /* Same as above for Firefox */
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Remove the inner padding and search cancel button in WebKit browsers */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+
+a:visited {
+    color: inherit; 
+}
+
+
+body {
+    background: #F7F9FB;
+}
+
+
+
+/**** END Global Styles ****/   
