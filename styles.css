@@ -83,6 +83,58 @@ header .title-container  {
 
 }
 
+header .title-container h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header .title-container h1 #title-txt__color-dark {
+    color: #1B4965;
+}
+
+
+header .title-container h1 #title-txt__color-light {
+    color: #5FA8D3;
+}
+
+
+
+header .search-form__container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header .search-form {
+    display: flex;
+    margin-top: 24px;
+}
+
+header .search-form__input {
+    flex-grow: 1;
+    padding: 25px;
+    border: 4px solid #1B4965;
+    border-right: none;
+    outline: none;
+    font-size: 24px;
+    color: #929292; 
+}
+
+header .search-form__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background: #5FA8D3;
+    border: 4px solid #1B4965;
+    cursor: pointer;
+}
+
+
+.search-form__button:hover {
+    background-color: #0056b3;
+}
 
 
 
