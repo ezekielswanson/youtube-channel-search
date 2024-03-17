@@ -2,22 +2,6 @@ const apiKey = 'AIzaSyCEUkGWb7OAUjT6ZWGgac9o-_QzpGROy2U';
 const channelId = 'UCHa8J-xnRYOg5VuudfWpBgg';
 
 
-/*
-//Render Channel On Load
-document.addEventListener('load', function() {
-    //invoke my function here
-
-})
-
-
-
-async function showChannelOnLoad() {
-    try {
-        const res = await fetch(`https://www.googleapis.com/youtube/v3/`)
-    }
-
-}
-*/
 
 
 
@@ -45,8 +29,44 @@ async function fetchVideosBySearch(videoQuery) {
     
         const data = await response.json();
         console.log(data);
+
+        return data;
     } catch (error) {
         console.error('No videos match your search - Please search another video name:', error);
     }   
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//Render Channel On Load
+document.addEventListener('load', function() {
+    //invoke my function here
+
+})
+
+
+
+async function showChannelOnLoad() {
+    try {
+        const res = await fetch(`https://www.googleapis.com/youtube/v3/search`)
+    }
+
+}
+*/
