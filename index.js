@@ -38,7 +38,20 @@ async function fetchVideosBySearch(videoQuery) {
 
 
 
+//fetchVideosBySearch() has the data value this data value wheere 
+//I can get all the values from fetch request from 
+//renderSearchedVideosReturned
 
+/*
+
+how do I extract the data returned from my fetch request put it into my renderSearchedVideosReturned funciton?
+Don't give me the solution. Help me think through how to solve this please so I can improve my problem solving skills please.
+
+*/
+
+function renderSearchedVideosReturned() {
+    fetchVideosBySearch() 
+}
 
 
 
