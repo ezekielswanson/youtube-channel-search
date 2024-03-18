@@ -38,8 +38,8 @@ async function fetchVideosBySearch(videoQuery) {
 
 
 
-function renderSearchedVideosReturned() {
-    fetchVideosBySearch() 
+function renderSearchedVideosReturned(data) {
+  fetchVideosBySearch(data)
 }
 
 
