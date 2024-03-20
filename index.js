@@ -28,20 +28,28 @@ async function fetchVideosBySearch(videoQuery) {
         }
     
         const data = await response.json();
-        console.log(data);
+       // console.log(data);
+        //return data;
+        //Invoke renderSearchedVideos(pass in the arugment (data))
+        //***Key point inside of the function with the data you need - invoke the funciton with the parameter
+        //and padd in the data
+        renderSearchedVideos(data)
 
-        return data;
     } catch (error) {
         console.error('No videos match your search - Please search another video name:', error);
     }   
 }
 
+//I want to use the data in this function, so I give it a parameter
 
-
-function renderSearchedVideosReturned(data) {
-  fetchVideosBySearch(data)
+//place place holder for that data here so you can use it within this function
+function renderSearchedVideos(returnedVideos) {
+    console.log(returnedVideos)
 }
 
+
+
+renderSearchedVideos()
 
 
 
