@@ -32,7 +32,7 @@ async function fetchVideosBySearch(videoQuery) {
         //return data;
         //Invoke renderSearchedVideos(pass in the arugment (data))
         //***Key point inside of the function with the data you need - invoke the funciton with the parameter
-        //and padd in the data
+        //and add in the data
         renderSearchedVideos(data)
 
     } catch (error) {
@@ -44,6 +44,9 @@ async function fetchVideosBySearch(videoQuery) {
 
 //place place holder for that data here so you can use it within this function
 function renderSearchedVideos(returnedVideos) {
+    const videoHTML = returnedVideos.map((video => {
+        
+    }))
     console.log(returnedVideos)
 }
 
