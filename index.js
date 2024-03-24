@@ -44,9 +44,11 @@ async function fetchVideosBySearch(videoQuery) {
 
 //place place holder for that data here so you can use it within this function
 function renderSearchedVideos(returnedVideos) {
+    /*
     const videoHTML = returnedVideos.map((video => {
         
     }))
+    */
     console.log(returnedVideos)
 }
 
